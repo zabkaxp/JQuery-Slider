@@ -1,0 +1,51 @@
+body{
+    background-color: darkslategray;
+    text-align: center;
+}
+
+.container{
+    width:640px;
+    height:480px;
+    display:inline-flex;
+    justify-content: center;
+    position:relative;
+}
+
+.nav{
+    cursor: pointer;   
+    display: flex;
+    align-self: center;
+    position:absolute;
+    transition-duration: .5s;
+    z-index: 10;
+}
+
+.nav:hover{
+    transform: scale(0.8);
+}
+
+.prev{
+    left:-30px;
+}
+
+.next{
+    right:-30px;
+}
+
+.image{
+    display:none;
+    opacity:0;
+}
+
+.active{
+    display:block;
+    opacity: 1;
+}
+
+.name{
+    font-size: 20px;
+    color:darkgrey;
+    letter-spacing: 3px;
+    font-family: fantasy;
+    padding:10px;
+}

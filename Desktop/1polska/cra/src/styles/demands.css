@@ -1,0 +1,92 @@
+.demands {
+  margin: 30px 150px;
+}
+
+.demands-container {
+  background-color: #ededed;
+  margin-top: 30px;
+}
+
+.demands-conatiner-text {
+  padding: 20px;
+  background-color: white;
+  text-transform: uppercase;
+  color: #142239;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.75);
+}
+
+.demand-boxes-container {
+}
+
+.demands-row {
+  display: flex;
+  width: 100%;
+}
+
+.demands-box {
+  height: 68vh;
+  width: 31.5%;
+  background-color: white;
+  -webkit-box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.75);
+}
+
+.demands-box-1 {
+  margin-right: 30px;
+}
+
+.demands-box-2 {
+  margin-right: 30px;
+}
+.demands-img-container {
+  width: 100%;
+  overflow: hidden;
+  height: 190px;
+}
+.demands-img {
+  opacity: 0.7;
+}
+.demands-title {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 20px;
+  color: #142239;
+  font-weight: 600;
+  line-height: 25px;
+}
+.demands-description {
+  padding: 0 30px;
+  text-align: justify;
+  line-height: 20px;
+  font-size: 15px;
+  color: #142239;
+}
+
+.button-container {
+  font-size: 14px;
+  text-align: center;
+}
+
+.button-text-box {
+  text-align: center;
+  color: white;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: darkblue;
+  color: white;
+  margin-top: 15px;
+  border-radius: 4px;
+  padding: 9px 15px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.button-text-box:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}

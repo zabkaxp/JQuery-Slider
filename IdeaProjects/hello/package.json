@@ -1,0 +1,23 @@
+{
+  "name": "raffle-game",
+  "version": "1.0.0",
+  "description": "Game",
+  "main": "Main.java",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zabkaxp/JAVA-Raffle-Game.git"
+  },
+  "keywords": [
+    "raffle",
+    "game"
+  ],
+  "author": "Marta Wojno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zabkaxp/JAVA-Raffle-Game/issues"
+  },
+  "homepage": "https://github.com/zabkaxp/JAVA-Raffle-Game#readme"
+}
